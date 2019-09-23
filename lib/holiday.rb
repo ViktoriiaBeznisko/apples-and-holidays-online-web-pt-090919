@@ -60,12 +60,12 @@ holiday_hash.each do |season, data|
   data.each do |holiday, value|
     value.each do |supply|
      if supply == "BBQ"
-        answer.push(holiday)
+        result.push(holiday)
       end
     end
   end
-end	end
-answer
+end
+result
 
 end
 
